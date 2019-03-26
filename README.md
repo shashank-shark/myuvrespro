@@ -28,4 +28,9 @@
 - UGVs - Unmanned ground vehicles
 - UUVs - Unmanned underwater vehicles
 
+# **Basic TOOLS required for implementation and visualization**
+* networkx python module
+* matplotlib
+* numpy
+* algorithms and data structures
 
