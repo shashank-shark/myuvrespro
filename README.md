@@ -34,3 +34,6 @@
 * numpy
 * algorithms and data structures
 
+# MILESTONES
+For now i will be considering only one agent at a time.
+
