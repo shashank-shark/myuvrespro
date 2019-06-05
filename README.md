@@ -34,6 +34,20 @@
 * numpy
 * algorithms and data structures
 
-# MILESTONES
-For now i will be considering only one agent at a time.
+# Concepts that I would and may use to **develop** this system include:
+- Operating System Concepts.
+- IPC (Interprocess Communications).
+- Socket Programming
+- Multipoint client-server programming.
+- OpenCV (Computer Vision)
+- Robotics and few electronic and circuit boards.
 
+# Hardware that I would be using include
+* Raspberry Pi 3b+
+* DELL Latitude-D630
+* DELL Inspiron 15
+* MI Android Phone
+* Aruduino (2 boards)
+* NodeMCU
+* ESP8266 separate board
+* Bluetooth
