@@ -47,7 +47,15 @@
 * DELL Latitude-D630
 * DELL Inspiron 15
 * MI Android Phone
-* Aruduino (2 boards)
+* Aruduino Uno Boards (2 boards)
 * NodeMCU
 * ESP8266 separate board
 * Bluetooth
+
+# **IMAGES**
+
+### Raspberry Pi 3b+
+![Image of Raspberry](HardwareImages/rasp2.jpg)
+
+### Arduino UNO Boards
+![Image of Arduino Uno Boards](HardwareImages/arduino.jpg)
