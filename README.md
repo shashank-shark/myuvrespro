@@ -59,3 +59,6 @@
 
 ### Arduino UNO Boards
 ![Image of Arduino Uno Boards](HardwareImages/arduino.jpg)
+
+### NodeMCU
+![Image of NodeMCU](HardwareImages/NodeMCU.jpg)
