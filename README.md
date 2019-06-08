@@ -62,3 +62,7 @@
 
 ### NodeMCU
 ![Image of NodeMCU](HardwareImages/NodeMCU.jpg)
+
+
+# Let's set up the environment required for this code and research
+# [SETUP ENVIRONMENT ...(0_0)](pages/env-setup/envsetup.md)
