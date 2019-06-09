@@ -25,11 +25,12 @@ The below table shows what package managers are used in different flavours.
 
 ### **Creating first python3 virtual environment**
 - Use the below command to create the virtual environment.
-`python3 -m venv shashank`
+- `python3 -m venv shashank`
 
 - After executing this command python3 virtual environment named **shashank** will be created.
 
 ### **Activating the virtual environment created**
 - Navigate to the `shashank/bin` directory.
 - Use the below command to activate the environment.
-`source activate`
+- `source activate`
+- In furthur updates and coding I would create many python virtual environments as such.
