@@ -9,11 +9,27 @@ To install `pip3` on linux systems we need to use distro's package manager.
 The below table shows what package managers are used in different flavours.
 
 
-| DISTRO        | PACKAGE-MANAGER |
-| ------------- |:-------------:|
-|**`Debian based`**  | apt, apt-get  |
-| **`Red-hat`**     | yum (old), dnf (new)  |
-| **`Arch, Manjaro`** | pacman, yarout     |
+| DISTRO        | PACKAGE-MANAGER | COMMAND |
+| ------------- |:-------------:| -------------|
+|**`Debian based`**  | apt, apt-get  | sudo apt-get install python3-pip |
+| **`Red-hat`**     | yum (old), dnf (new)  |   sudo dnf install python3-pip    |
+| **`Arch, Manjaro`** | pacman, yarout     |    sudo pacman -S python-pip   |
 
 ### **Setting the `venv`**
 `venv` stands for virtual environment. Here we shall create a virtual environment for `python3`. To install `venv` on linux systems use the following commands.
+
+| Command for installing `venv` for python  |
+|:-----------------------------------------:|
+|   `sudo apt-get install python3-venv`   |
+|:-----------------------------------------:|
+
+### **Creating first python3 virtual environment**
+- Use the below command to create the virtual environment.
+`python3 -m venv shashank`
+
+- After executing this command python3 virtual environment named **shashank** will be created.
+
+### **Activating the virtual environment created**
+- Navigate to the `shashank/bin` directory.
+- Use the below command to activate the environment.
+`source activate`
