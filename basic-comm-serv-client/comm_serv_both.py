@@ -30,7 +30,7 @@ def receive(channel):
     return pickle.loads(buf)[0]
 
 
-class ChatServer(object):
+class CommunicationServer(object):
     """ An example chat server using select """
     def __init__(self, port, backlog=5):
         self.clients = 0
@@ -121,7 +121,7 @@ class ChatServer(object):
         self.server.close()
 
 
-class ChatClient(object):
+class FollowerNodes(object):
     """ A command line chat client using select """
 
     def __init__(self, name, port, host=SERVER_HOST):
@@ -183,9 +183,9 @@ if __name__ == "__main__":
     port = given_args.port
     name = given_args.name
     if name == CHAT_SERVER_NAME:
-        server = ChatServer(port)
+        server = CommunicationServer(port)
         server.run()
     else:
-        client = ChatClient(name=name, port=port)
+        client = FollowerNodes(name=name, port=port)
         client.run()
     
