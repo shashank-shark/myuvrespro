@@ -188,4 +188,3 @@ if __name__ == "__main__":
     else:
         client = FollowerNodes(name=name, port=port)
         client.run()
-    
