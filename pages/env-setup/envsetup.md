@@ -1,5 +1,21 @@
 # Setting up python environment
 
+> ### Software packages and requirements
+### **Basic TOOLS required for implementation and visualization**
+* networkx python module
+* matplotlib
+* numpy
+* algorithms and data structures
+
+#### Concepts that I would and may use to **develop** this system include:
+- Operating System Concepts.
+- IPC (Interprocess Communications).
+- Socket Programming
+- Multipoint client-server programming.
+- OpenCV (Computer Vision)
+- Robotics and few electronic and circuit boards.
+
+
 ## **STEP 1**: SETTING UP PYTHON 3 and VENV (Virtual Environment)
 Since I am using all linux based systems on my machines and mini-computers (RASP-PI) python2 and python3 comes pre-installed. You can enter "`python`" (without braces) in your terminal and verify whether python is installed or not. If not, then there are many tutorials and docs out on web which will help you in installing python on your linux machine.
 
@@ -21,7 +37,6 @@ The below table shows what package managers are used in different flavours.
 | Command for installing `venv` for python  |
 |:-----------------------------------------:|
 |   `sudo apt-get install python3-venv`   |
-|:-----------------------------------------:|
 
 ### **Creating first python3 virtual environment**
 - Use the below command to create the virtual environment.
