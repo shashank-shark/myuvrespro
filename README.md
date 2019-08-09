@@ -2,8 +2,6 @@
 
 > ## Basic Messaging Programs in C using ZMQ
 
-> #### Weather station updates.
-The server station server code.
 ```c
 #include "zhelpers.h"
 #include <unistd.h>
